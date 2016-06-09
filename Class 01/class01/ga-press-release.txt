@@ -9,6 +9,10 @@
 
 <body>
 
+<a href="about.html">About GA</a>
+<a href="ga-press-release.txt">Press Release</a>
+<a href="index.html">Home</a>
+
 <h1>General Assembly offers Classes and Workshops Worldwide</h1>
 
 <h2>For Immediate Release</h2>
@@ -32,7 +36,7 @@
 <li>Washington D.C</li>
 </ui>
 
-<h3>For more information, visit General Assembly's website <a href="http://generalassemb.ly">General Assembly</a>(http://generalassemb.ly)</h3>
+<h3>For more information, visit General Assembly's website <a href="http://generalassemb.ly">General Assembly</a></h3>
 
 </body>
 
