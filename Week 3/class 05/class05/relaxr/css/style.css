@@ -1,0 +1,149 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*body {
+  color: #000;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+  background-color: #033048;
+  padding:60px 60px;
+
+}
+
+.hh { 
+
+color: white;
+font-family: "Open Sans";
+font-weight: bold;
+float: left;
+margin-left: 30px;
+font-size: 40px;
+line-height: 20px;
+
+ }
+
+a {
+
+  color: #f9e42e;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 24px;
+  float: right;
+  line-height: 10px;
+  font-family: "Open Sans"
+}
+
+/*header finished,
+start of body */
+
+.AI {
+
+text-align: left;
+color: #033048;
+font-family: "Open Sans";
+padding-top: 30px;
+font-size: 40px;
+padding-left: 90px;
+font-weight: bold;
+float: left;
+
+}
+
+.imaage{
+
+}
+
+
+
+.pictxt{
+
+color: #606161;
+font-family: "Open Sans";
+
+}
+
+hr {
+
+  color: #606161;
+}
+
+.Readmore {
+
+}
+
+.AII {
+
+text-align: left;
+color: #033048;
+font-family: "Open Sans";
+padding-top: 30px;
+font-size: 40px;
+padding-left: 90px;
+font-weight: bold;
+float: left;
+
+}
+
+
+
+footer {
+
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
