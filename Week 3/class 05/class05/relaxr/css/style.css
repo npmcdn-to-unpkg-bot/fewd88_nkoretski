@@ -115,6 +115,10 @@ hr {
 
 .Readmore {
 
+color:#606161;
+
+
+
 }
 
 .AII {
@@ -130,9 +134,33 @@ float: left;
 
 }
 
+.wtop {
+
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ybot {
+
+  background-color: #f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
 
 
-footer {
+.footxt {
+
+  background-color: #121212;
+  padding-bottom: 200px;
+  color: #f9e42e;
+  text-align: center;
+  line-height: 140px;
+  font-size: 35px;
+  font-family: "Open Sans";
+  font-weight: bold;
+
 
 }
 
