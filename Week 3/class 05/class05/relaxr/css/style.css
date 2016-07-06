@@ -82,6 +82,28 @@ a {
 /*header finished,
 start of body */
 
+body {
+
+}
+
+.Lefts {
+
+  display: inline-block;
+  width: 900px;
+  height: 100%;
+  float: left;
+}
+
+.Rights {
+
+ display: inline-block;
+ width:300px; 
+ height:100%;
+ float: right;
+}
+
+
+
 .AI {
 
 text-align: left;
@@ -97,14 +119,22 @@ float: left;
 
 .imaage{
 
+
+  margin-left: 90px;
+  margin-top: 20px;
+
 }
 
 
 
 .pictxt{
 
+margin-top: 20px;
+margin-bottom: 30px;
 color: #606161;
 font-family: "Open Sans";
+margin-left: 90px;
+
 
 }
 
@@ -113,13 +143,21 @@ hr {
   color: #606161;
 }
 
+
 .Readmore {
 
-color:#606161;
+color:#033048;
+margin-bottom: 10px;
+margin-top: 10px;
 
 
 
 }
+
+hr { 
+
+margin-left: 90px;
+ }
 
 .AII {
 
