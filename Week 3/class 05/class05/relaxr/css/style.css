@@ -97,7 +97,7 @@ body {
 .Rights {
 
  display: inline-block;
- width:300px; 
+ width:600px; 
  height:100%;
  float: right;
 }
@@ -149,6 +149,8 @@ hr {
 color:#033048;
 margin-bottom: 10px;
 margin-top: 10px;
+display: block;
+text-align: right;
 
 
 
