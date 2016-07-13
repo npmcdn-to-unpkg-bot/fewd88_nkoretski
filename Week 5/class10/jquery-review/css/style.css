@@ -1,0 +1,28 @@
+.container {
+
+}
+
+
+
+.box1 .box2 {
+
+height: 200px;
+width: 200px;
+
+
+}
+
+.box1 {
+
+	padding: 100px 100px;
+	display: inline-block;
+	border: 10px red solid;
+	margin: 200px 300px;
+}
+
+.box2 {
+
+	padding: 100px 100px;
+	display: inline-block;
+	border: 10px blue solid;
+}
