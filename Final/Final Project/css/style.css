@@ -1,0 +1,52 @@
+.page {
+
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+
+
+.container{
+
+	background-color: grey;
+	border: 10px red solid;
+	display: inline-block;
+	padding: 60px 60px;
+
+
+}
+
+.logo{
+	/*margin: 10px 10px;*/
+	float: left;
+	display: inline-block;
+}
+
+.navhead a{
+
+	float: right;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 750px;
+	line-height: -90px;
+	margin-right: 10px;
+	color: white;
+	
+
+}
+
+.oak {
+
+width: 150px;
+height: 150px;
+
+}
+
+
+
+
+
+.wrapper {
+
+
