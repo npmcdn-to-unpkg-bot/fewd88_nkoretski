@@ -1,0 +1,407 @@
+/**/
+
+.page {
+	
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Century Gothic";
+}
+
+/*THIS IS THE START OF THE HEADING: EMRG PHOTO & TOP NAV BAR*/
+
+
+
+.container{
+	overflow: hidden;
+	height: 120px;
+	background-color: white;
+
+
+	
+
+}
+
+#headlogo{
+	float: left;
+	height: 110px;
+	margin-right: 80px;
+
+
+}
+
+
+#top-nav{
+	display: inline-block;
+	float: right;
+	
+
+}
+
+
+#top-nav a{
+	font-family: "Century Gothic"
+	font-weight: 50px;
+	line-height: 150px;
+	padding: 55px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	/*margin-right: 100px;*/
+}
+
+#top-nav a:hover{
+	
+	text-decoration: underline solid red;
+}
+
+
+
+/*THE END OF HEADER*/
+/*THIS IS THE START OF THE BODY*/
+
+.wrapper {
+	
+	
+
+}
+
+/*CAROUSEL*/
+
+#capital img{
+	width: 100%;
+	height: 500px;
+	border-radius: 5px;
+
+}
+
+/*STICKY NAV BAR STARTS*/
+
+#stickynav {
+	background-color: black;
+	height: 55px;
+	border-radius: 5px;
+	
+
+}
+
+#stickynav a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-weight: 10px;
+	font-size: 15px;
+	
+}
+
+.nav a:hover:{
+	text-decoration-color: red;
+	text-decoration: underline;
+}
+
+
+
+.divider{
+	color: red;
+	position: relative;
+	margin-left:50px; 
+}
+
+/*THE START OF ABOUT SECTION*/
+
+
+#What-We-Do-head{
+	margin-top: 50px;
+	margin-right: 90px;
+	text-align: right;
+	font-size: 40px;
+	font-family: "Century Gothic"
+	font-weight: lighter;
+	font-variant: small-caps;
+	/*text-decoration: underline;*/
+
+
+}
+
+#aboutpara {
+	font-family: "Century Gothic"
+	font-size:15px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: left;
+	margin-top: -20px;
+	padding-left: 20px;
+	border-left: 1px solid black;
+
+}
+
+/*END OF ABOUT SECTION*/
+/*START OF SERVICES*/
+
+#servicessection{
+	background-color: #fbf9f9;
+	margin-left: 50px;
+}
+
+#services p{
+
+	margin-top: 60px;
+	font-size: 40px;
+	font-family: "Century Gothic";
+	/*text-decoration: underline;*/
+	font-variant: small-caps;
+	text-align: left;
+
+}
+
+
+/*SERVICE ICONS START*/
+
+#serviceicons1{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+
+}
+
+#serviceicons2{
+
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 28px;
+	margin-top: 50px;
+
+
+}
+
+/*ICON 1 CONCEPT DEVE*/
+
+#spacing{
+	margin-right: 120px;
+		}
+#spacing2{
+	margin-left: 180px;
+}
+
+#spacing3{
+	margin-right: 150px;
+}
+
+.icon1{
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+#conceptimg img {
+	height: 20px;*/
+	width: 20px;*/
+	
+}
+
+#conceptimg p{
+	text-align:justify;
+}
+
+/*ICON 2 CONTRACT NE*/
+
+.icon2{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#contractimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#contractimg p{
+	text-align:justify;
+}
+
+/*ICON 3 PRODUCTION N EXECUTION*/
+
+.icon3{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#productionimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#productionimg p{
+	text-align:justify;
+}
+
+/*ICON 4 VENUE LOCATION*/
+
+.icon4{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#venueimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#venueimg p{
+	text-align:justify;
+}
+
+
+/*ICON 5 MUSIC*/
+
+.icon5{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#musicimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#musicimg p{
+	text-align:justify;
+}
+
+/*ICON 6*/
+
+.icon6{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#lightingimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#lightingimg p{
+	text-align:justify;
+	t
+}
+
+/*ICON 7 STAFFING*/
+
+.icon7{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#staffingimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#staffingimg p{
+	text-align:justify;
+	margin-right: 15px;
+
+	
+}
+
+#staffingimg img p {
+	/*margin-right: 20px;*/
+}
+
+
+/*ICON 8 MENU*/
+
+.icon8{
+	text-align: center;
+	vertical-align: top;
+
+
+}
+
+#foodimg img {
+	height: 70px;
+	width: 70px;
+	
+	
+}
+
+#foodimg p{
+	text-align:justify;
+
+
+	
+}
+
+
+/*ICON 9 MANAGEMENT
+
+*/
+
+.icon9{
+	text-align: center;
+	vertical-align: top;
+	margin-left: 93px;
+
+
+}
+
+#managementimg img {
+	height: 70px;
+	width: 70px;
+	
+	
+}
+
+#managementimg p{
+	text-align:justify;
+
+
+	
+}
+
+
+/*ICON 10 AMBIENCE*/
+
+
+.icon10{
+	text-align: center;
+	vertical-align: top;
+	margin-left: 105px;
+
+
+}
+
+#ambienceimg img {
+	height: 70px;
+	width: 70px;
+	
+	
+}
+
+#ambienceimg p{
+	text-align:justify;
+
+
+	
+}
+
