@@ -1,0 +1,217 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*body {
+  color: #000;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+  background-color: #033048;
+  padding:60px 60px;
+
+}
+
+.hh { 
+
+color: white;
+font-family: "Open Sans";
+font-weight: bold;
+float: left;
+margin-left: 30px;
+font-size: 40px;
+line-height: 20px;
+
+ }
+
+a {
+
+  color: #f9e42e;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 24px;
+  float: right;
+  line-height: 10px;
+  font-family: "Open Sans"
+}
+
+/*header finished,
+start of body */
+
+body {
+
+}
+
+.Lefts {
+
+  display: inline-block;
+  width: 900px;
+  height: 100%;
+  float: left;
+}
+
+.Rights {
+
+ display: inline-block;
+ width:600px; 
+ height:100%;
+ float: right;
+}
+
+
+
+.AI {
+
+text-align: left;
+color: #033048;
+font-family: "Open Sans";
+padding-top: 30px;
+font-size: 40px;
+padding-left: 90px;
+font-weight: bold;
+float: left;
+
+}
+
+.imaage{
+
+
+  margin-left: 90px;
+  margin-top: 20px;
+
+}
+
+
+
+.pictxt{
+
+margin-top: 20px;
+margin-bottom: 30px;
+color: #606161;
+font-family: "Open Sans";
+margin-left: 90px;
+
+
+}
+
+hr {
+
+  color: #606161;
+}
+
+
+.Readmore {
+
+color:#033048;
+margin-bottom: 10px;
+margin-top: 10px;
+display: block;
+text-align: right;
+
+
+
+}
+
+hr { 
+
+margin-left: 90px;
+ }
+
+.AII {
+
+text-align: left;
+color: #033048;
+font-family: "Open Sans";
+padding-top: 30px;
+font-size: 40px;
+padding-left: 90px;
+font-weight: bold;
+float: left;
+
+}
+
+.wtop {
+
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ybot {
+
+  background-color: #f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+.footxt {
+
+  background-color: #121212;
+  padding-bottom: 200px;
+  color: #f9e42e;
+  text-align: center;
+  line-height: 140px;
+  font-size: 35px;
+  font-family: "Open Sans";
+  font-weight: bold;
+
+
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+

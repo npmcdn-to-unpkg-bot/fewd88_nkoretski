@@ -41,6 +41,7 @@ img #headlogo{
 	/*float: right;*/
 	position: fixed;
 	background-color: white;
+	z-index: 1;
 	
 }
 
@@ -56,6 +57,7 @@ img #headlogo{
 	border-right: 1px solid red;
 	padding-right: 30px;
 	/*display: inline-block;*/
+	background-color: white;
 
 }
 
@@ -680,7 +682,25 @@ img {
 	width: 100%;
  }
 
+ #eventplannersection{
+ 	margin-top: 700px;
+ }
 
+
+#eventheader{
+
+	font-size: 50px;
+}
+
+#eventheader p:hover{
+	color: blue;
+	size: 200px;
+}
+
+#eventp p:hover{
+	color: blue;
+	
+}
 
 
 
