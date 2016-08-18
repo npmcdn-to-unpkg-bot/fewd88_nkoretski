@@ -1,0 +1,728 @@
+/**/
+
+.page {
+	
+	margin-top: 5px;
+	font-family: "Century Gothic";
+
+
+}
+
+/*THIS IS THE START OF THE HEADING: EMRG PHOTO & TOP NAV BAR*/
+
+
+
+.containerhead{
+	/*overflow: hidden;*/
+	/*height: 120px;*/
+	background-color: white;
+	padding-right: 100%;
+
+}
+
+#headlogo{
+	
+	margin-right: 60px;
+	left: 30px;
+
+
+}
+
+img #headlogo{
+	width: 200px;
+	height: 250px;
+}
+
+
+/*.row{display: inline-block;}*/
+
+#top-nav{
+	/*display: inline-block;*/
+	/*float: right;*/
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	
+}
+
+
+
+
+#top-nav a{
+	font-family: "Century Gothic";
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin-right: 15px;
+	border-right: 1px solid red;
+	padding-right: 30px;
+	/*display: inline-block;*/
+	background-color: white;
+
+}
+
+#top-nav a:hover{
+	
+	text-decoration: underline solid red;
+}
+
+
+
+
+/*THE END OF HEADER*/
+/*THIS IS THE START OF THE BODY*/
+
+.wrapper {
+	
+	
+
+}
+
+/*CAROUSEL*/
+
+#capital img{
+	width: 100%;
+	height: 500px;
+	border-radius: 5px;
+
+}
+
+
+.nav a:hover:{
+	text-decoration-color: red;
+	text-decoration: underline;
+}
+
+
+
+.divider{
+	color: red;
+	position: relative;
+	margin-left:50px; 
+}
+
+/*THE START OF ABOUT SECTION*/
+
+
+#What-We-Do-head{
+	margin-top: 50px;
+	margin-right: 90px;
+	text-align: right;
+	font-size: 40px;
+	font-family: "Century Gothic"
+	font-weight: lighter;
+	font-variant: small-caps;
+	/*text-decoration: underline;*/
+
+
+
+}
+
+#aboutpara {
+	font-family: "Century Gothic"
+	font-size:15px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: left;
+	margin-top: -20px;
+	padding-left: 20px;
+	border-left: 1px solid red;
+
+}
+
+/*END OF ABOUT SECTION*/
+/*START OF SERVICES*/
+
+#servicessection{
+	/*background-color: #fbf9f9;*/
+	margin-left: 50px;
+
+}
+
+#services p{
+
+	margin-top: 60px;
+	font-size: 40px;
+	font-family: "Century Gothic";
+	/*text-decoration: underline;*/
+	font-variant: small-caps;
+	text-align: left;
+
+}
+
+
+/*SERVICE ICONS START*/
+
+#serviceicons1{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+
+}
+
+#serviceicons2{
+
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 28px;
+	margin-top: 50px;
+
+
+}
+
+/*ICON 1 CONCEPT DEVE*/
+
+#spacing{
+	margin-right: 120px;
+		}
+#spacing2{
+	margin-left: 180px;
+}
+
+#spacing3{
+	margin-right: 150px;
+}
+
+.icon1{
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+#conceptimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#conceptimg p{
+	text-align:justify;
+}
+
+/*ICON 2 CONTRACT NE*/
+
+.icon2{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#contractimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#contractimg p{
+	text-align:justify;
+}
+
+/*ICON 3 PRODUCTION N EXECUTION*/
+
+.icon3{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#productionimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#productionimg p{
+	text-align:justify;
+}
+
+/*ICON 4 VENUE LOCATION*/
+
+.icon4{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#venueimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#venueimg p{
+	text-align:justify;
+}
+
+
+/*ICON 5 MUSIC*/
+
+.icon5{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#musicimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#musicimg p{
+	text-align:justify;
+}
+
+/*ICON 6*/
+
+.icon6{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#lightingimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#lightingimg p{
+	text-align:justify;
+	t
+}
+
+/*ICON 7 STAFFING*/
+
+.icon7{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+#staffingimg img {
+	height: 70px;
+	width: 70px;
+	
+}
+
+#staffingimg p{
+	text-align:justify;
+	margin-right: 15px;
+
+	
+}
+
+#staffingimg img p {
+	/*margin-right: 20px;*/
+}
+
+
+/*ICON 8 MENU*/
+
+.icon8{
+	text-align: center;
+	vertical-align: top;
+
+
+}
+
+#foodimg img {
+	height: 70px;
+	width: 70px;
+	
+	
+}
+
+#foodimg p{
+	text-align:justify;
+
+
+	
+}
+
+
+/*ICON 9 MANAGEMENT
+
+*/
+
+.icon9{
+	text-align: center;
+	vertical-align: top;
+	margin-left: 93px;
+
+
+}
+
+#managementimg img {
+	height: 70px;
+	width: 70px;
+	
+	
+}
+
+#managementimg p{
+	text-align:justify;
+
+
+	
+}
+
+
+/*ICON 10 AMBIENCE*/
+
+
+.icon10{
+	text-align: center;
+	vertical-align: top;
+	margin-left: 105px;
+
+
+}
+
+#ambienceimg img {
+	height: 70px;
+	width: 70px;
+	
+	
+}
+
+#ambienceimg p{
+	text-align:justify;
+
+}
+
+
+/*CLIENTS SECTION*/
+
+#clients{
+margin-top: 50px;
+}
+
+#clientshead {
+	margin-top: 80px;
+	margin-right: 30px;
+	text-align: right;
+	font-size: 40px;
+	font-family: "Century Gothic"
+	font-weight: lighter;
+	font-variant: small-caps;
+	margin-bottom: 20px;
+
+}
+
+.condenast img{
+height: 120px;
+width: 200px;
+
+}
+
+.bloomingdales img{
+	height: 80px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.aliciakeys img{
+	height: 80px;
+	width: 230px;
+	margin-top: 30px;
+}
+
+.casio img{
+	height: 100px; 
+	width:200px;
+
+}
+
+.bain img{
+	height: 100px;
+	width: 200px;
+}
+
+.mtv img{
+	height: 110px;
+	width: 230px;
+}
+
+.epic img{
+	height: 100px;
+	width: 210px;
+}
+
+.espn img{
+	height: 100px;
+	width: 210px;
+}
+
+/*VENUE SECTION*/
+
+#venuesection{
+	display: inline-block;
+	margin-top: 50px;
+	width: 100%;
+
+}
+
+#venuehead{
+	margin-top: 20px;
+}
+
+ #venuehead p{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Century Gothic";
+	/*text-decoration: underline;*/
+	font-variant: small-caps;
+	margin-top: 50px;
+	width: 100%;
+
+	
+}
+
+#venuepics{display: inline-block;}
+
+#venuepics img{
+	display: inline-block;
+}
+
+
+.row img{display: inline-block;}
+
+#oak img{
+	height: 400px;
+	width: 360px;
+	border:1px solid black;
+	margin-right: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
+#oak p {
+	visibility: hidden;
+	font-family: "Century Gothic"
+	font-size: 15px;
+	text-align: center;
+
+}
+
+
+
+#cip img{
+	width:200px;
+	height: 350px;
+	/*float: right;*/
+	border:1px solid black;
+}
+
+#cap img{
+	border:1px solid black;
+	height: 250px;
+	width: 200px;
+}
+
+.row img{
+	display: inline-block;
+}
+
+img #empire{
+	height: 200px;
+}
+
+#hudson img{
+	width: 200px;
+}
+
+#venuepics img:hover{
+	opacity: 0.5;
+	visibility: visible;
+}
+
+/**/
+
+/**/
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#wrapper {
+  perspective: 2500;
+	-webkit-perspective: 2500;
+	width: 800px;
+	margin: 200px auto 0 auto;
+  perspective-origin: 50% 150px;
+	-webkit-perspective-origin: 50% 150px;
+  transition: perspective, 1s;
+  -o-transition: -o-perspective, 1s;
+  -moz-transition: -moz-perspective, 1s;
+	-webkit-transition: -webkit-perspective, 1s;
+}
+
+#image:hover {
+  animation-play-state:paused;
+  -o-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+}
+
+
+@-webkit-keyframes spin {
+	from {
+    transform: rotateY(0);
+    -o-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+		-webkit-transform: rotateY(0);
+	}
+	to {
+    transform: rotateY(-360deg);
+    -o-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -moz-transform: rotateY(-360deg);
+		-webkit-transform: rotateY(-360deg);
+	}
+}
+
+#image {
+	margin: 0 auto;
+	height: 300px;
+	width: 400px;
+  transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+  animation: spin 24s infinite linear;
+  -moz-animation: spin 24s infinite linear;
+  -o-animation: spin 24s infinite linear;
+	-webkit-animation: spin 24s infinite linear;
+}
+
+.image {
+	position: absolute;
+	height: 300px;
+	width: 400px;
+ /* border-radius: 25px;*/
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	font-size: 20em;
+	color: #fff;
+}
+
+#image > .i1 {
+  transform: translateZ(485px);
+  -moz-transform: translateZ(485px);
+  -o-transform: translateZ(485px);
+  -ms-transform: translateZ(485px);
+  -webkit-transform: translateZ(485px);
+}
+#image > .i2 {
+  transform: rotateY(45deg) translateZ(485px);
+  -moz-transform: rotateY(45deg) translateZ(485px);
+  -o-transform: rotateY(45deg) translateZ(485px);
+  -ms-transform: rotateY(45deg) translateZ(485px);
+  -webkit-transform: rotateY(45deg) translateZ(485px);
+}
+#image > .i3 {
+  transform: rotateY(90deg) translateZ(485px);
+  -moz-transform: rotateY(90deg) translateZ(485px);
+  -o-transform: rotateY(90deg) translateZ(485px);
+  -ms-transform: rotateY(90deg) translateZ(485px);
+  -webkit-transform: rotateY(90deg) translateZ(485px);
+}
+#image > .i4 {
+  transform: rotateY(135deg) translateZ(485px);
+  -moz-transform: rotateY(135deg) translateZ(485px);
+  -o-transform: rotateY(135deg) translateZ(485px);
+  -ms-transform: rotateY(135deg) translateZ(485px);
+  -webkit-transform: rotateY(135deg) translateZ(485px);
+}
+#image > .i5 {
+  transform: rotateY(180deg) translateZ(485px);
+  -moz-transform: rotateY(180deg) translateZ(485px);
+  -o-transform: rotateY(180deg) translateZ(485px);
+  -ms-transform: rotateY(180deg) translateZ(485px);
+  -webkit-transform: rotateY(180deg) translateZ(485px);
+}
+#image > .i6 {
+  transform: rotateY(225deg) translateZ(485px);
+  -moz-transform: rotateY(225deg) translateZ(485px);
+  -o-transform: rotateY(225deg) translateZ(485px);
+  -ms-transform: rotateY(225deg) translateZ(485px);
+  -webkit-transform: rotateY(225deg) translateZ(485px);
+}
+#image > .i7 {
+  transform: rotateY(270deg) translateZ(485px);
+  -moz-transform: rotateY(270deg) translateZ(485px);
+  -o-transform: rotateY(270deg) translateZ(485px);
+  -ms-transform: rotateY(270deg) translateZ(485px);
+  -webkit-transform: rotateY(270deg) translateZ(485px);
+}
+#image > .i8 {
+  transform: rotateY(315deg) translateZ(485px);
+  -moz-transform: rotateY(315deg) translateZ(485px);
+  -o-transform: rotateY(315deg) translateZ(485px);
+  -ms-transform: rotateY(315deg) translateZ(485px);
+  -webkit-transform: rotateY(315deg) translateZ(485px);
+}
+
+img {
+  border-radius: 25px;
+}
+
+#calendarhead p{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Century Gothic";
+	/*text-decoration: underline;*/
+	font-variant: small-caps;
+	margin-top: 50px;
+	width: 100%;
+ }
+
+ #eventplannersection{
+ 	margin-top: 700px;
+ }
+
+
+#eventheader{
+
+	font-size: 50px;
+}
+
+#eventheader p:hover{
+	color: blue;
+	size: 200px;
+}
+
+#eventp p:hover{
+	color: blue;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+display: block;
+height: 200px;
+width: 100%;
+text-align: right
+background-color: black;
+
+}
+
+
